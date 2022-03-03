@@ -1,6 +1,4 @@
 streamlit == 0.67.0
 pandas 
-matplotlib
-seaborn
+plotly==4.14.3
 numpy
-sklearn
