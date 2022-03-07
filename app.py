@@ -6,7 +6,7 @@ from PIL import Image
 
 
 
-df=pd.read_csv(r"A:\DS ML\Data Vizualization\Fitness Exercise\fitness_exercises.csv")
+df=pd.read_csv(r"fitness_exercises.csv")
 
 df.drop('id',axis=1,inplace=True)
 
